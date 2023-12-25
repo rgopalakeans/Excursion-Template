@@ -1,0 +1,20 @@
+.carousel-control-prev, .carousel-control-next{ width: 5%;}
+
+@media (min-width: 1400px){
+    .container {
+        width: 1200px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 1600px){
+    .container {
+        width: 1400px;
+        max-width: 100%;
+    }
+}
+@media (min-width: 1800px){
+    .container {
+        width: 1600px;
+        max-width: 100%;
+    }
+}

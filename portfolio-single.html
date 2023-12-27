@@ -8,8 +8,8 @@
     <title>Excursion Travel & Trip Site Template</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png"> 
     <!-- Font Icons -->
-     
-    
+    <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css" /> 
+    <!--     <link media="all" rel="stylesheet" href="css/fonts/Excursion-font-icon/Excursion-font.css"> -->
     <link media="all" rel="stylesheet" href="vendors/font-awesome/css/all.css" /> 
     <!-- Vendors -->
     <link media="all" rel="stylesheet" href="vendors/owl-carousel/dist/assets/owl.carousel.min.css" />
@@ -45,8 +45,8 @@
         </ul>
         <nav class="header-links">
             <ul>
-                <li><a href="signin.html">Login</a></li>
-                <li><a href="signup.html">Register</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
             </ul>
         </nav>
         <div class="p-3">
@@ -123,7 +123,7 @@
                                     </li>
                                     <li> <a href="about.html"> About </a> </li>
                                     <li> <a href="blog.html"> Blog </a> </li>
-                                    <li> <a href="portfolio.html"> Portfolio </a> </li>
+                                    <li> <a class="active" href="portfolio.html"> Portfolio </a> </li>
                                     <li class="dropdown dropdown-full-width-g" data-animation="fadeIn"> <a class="dropdown-toggle" data-toggle="dropdown" href="#" data-title="Pages">Shortcodes </a>
                                         <div class="dropdown-menu no-border-radius no-padding" data-adjust="2">
                                             <div class="row row-autoheight no-gutters">
@@ -199,58 +199,185 @@
             </header>
             
             <!--/header of the page -->
-            <main class="n">
+            <main>
+                <!-- main content wrapper -->
                 <div class="content-wrapper">
-                    <div class="row  no-gutters">
-                        <div class="col-lg-6 hidden-md-down">
-                            <div class="bg-stretch img-wrap">
-                                <img src="img/account.jpg" alt="images">
+                    <div class="owl-carousel single-slide portfolio-slide" id="Excursion-owl-slide-2">
+                        <div class="slide-item">
+                            <img src="img/portfolio-banner-1.jpg" alt="images">
+                        </div>
+                        <div class="slide-item">
+                            <img src="img/portfolio-banner-2.jpg" alt="images">
+                        </div>
+                        <div class="slide-item">
+                            <img src="img/portfolio-banner-3.jpg" alt="images">
+                        </div>
+                        <div class="slide-item">
+                            <img src="img/portfolio-banner-4.jpg" alt="images">
+                        </div>
+                    </div>
+                    <section class="content-block bg-gray-light">
+                        <div class="container-fluid">
+                            <div class="text-center bottom-space"> <span class="big">Unforgettable Adventure with Us!</span>
+                                <h2><span class="heading-decore">Dive Deep into Our Adventure Activities</span></h2>
                             </div>
                         </div>
-                        <div class="col-lg-6 signup-block">
-                            <div class="signup-wrap text-center">
-                                <div class="inner-wrap">
-                                    <div class="circular-icon bottom-space"><i class="fa-solid fa-arrow-right-to-bracket"></i></div>
-                                    <form id="contact_form" class="Excursion_contact-form signup-form">
-                                        <h2 class="bottom-space">Sign in</h2>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input required type="text" placeholder="User Name" id="con_uname" name="first-name" class="form-control">
+                        <div class="container">
+                            <div class="portfolio-des">
+                                <div class="row">
+                                    <div class="col-lg-6 bottom-space-medium-only">
+                                        <!--<h4>Our Adventure Activity</h4>-->
+                                        <ul class="content-list info-list">
+                                            <li class="row ">
+                                                <div class="col">
+                                                    <i class="fa-solid fa-hand-holding-dollar"></i>
+                                                    <span class="text title">Prices start at:</span>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="form-group">
-                                                    <input required type="password" placeholder="Password" id="con_password" name="last-name" class="form-control">
+                                                <div class="col">
+                                                    <p>Please call for rates</p>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="Excursion_select-box">
-                                                    <div class="Excursion_select-box-default square-box">
-                                                        <input type="checkbox" name="checkbox" id="checkbox11">
-                                                        <label for="checkbox11" class="m-0">Remember Me</label>
-                                                    </div>
+                                            </li>
+                                            <li class="row">
+                                                <div class="col">
+                                                    <i class="fa-solid fa-bed"></i>
+                                                    <span class="text title">Nights:</span>
                                                 </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p><a href="forgot-password.html">Forgot Password ?</a></p>
-                                            </div>
+                                                <div class="col">
+                                                    <p>3</p>
+                                                </div>
+                                            </li>
+                                            <li class="row ">
+                                                <div class="col">
+                                                    <i class="fa-solid fa-plane-departure"></i>
+                                                    <span class="text title">Air City:</span>
+                                                </div>
+                                                <div class="col">
+                                                    <p>Call for airfares from your city</p>
+                                                </div>
+                                            </li>
+                                            <li class="row">
+                                                <div class="col">
+                                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                                    <span class="text title">Vacation Rating:</span>
+                                                </div>
+                                                <div class="col">
+                                                    <p>Superior</p>
+                                                </div>
+                                            </li>
+                                            <li class="row ">
+                                                <div class="col">
+                                                    <i class="fa-solid fa-link"></i>
+                                                    <span class="text title">Client Name:</span>
+                                                </div>
+                                                <div class="col">
+                                                     <p><a href="#">Excursion Web Studio</a></p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="text-block top-space">
+                                            <h4 class="text-block-title">Project Detail:</h4>
+                                            <p>Welcome to our thrilling world of adventure sports, where adrenaline meets the extraordinary! Our portfolio is a testament to the daring spirit and the exhilarating experiences that await those who seek the thrill of the unknown.</p>
+                                            <p>Embark on a journey of heart-pounding descents and challenging ascents as you navigate through rugged terrains and breathtaking landscapes. Our mountain biking adventures are designed for adrenaline junkies and nature lovers alike. Conquer the trails, feel the wind rush past you, and experience the sheer joy of conquering nature's obstacles.</p>
                                         </div>
-                                        <div class="btn-container mb-3  mb-xl-3 mt-xl-5 mt-lg-2">
-                                            <button id="btn_sent" class="btn btn-primary has-radius-small">Login</button>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <!--<h4>Our Adventure Activities</h4>-->
+                                        <div class="text-block">
+                                            <p>Take the plunge and defy gravity as you soar through the sky in an exhilarating skydiving escapade. From the moment you leap from the plane to the serene descent under the parachute, our skydiving experiences promise an unmatched blend of fear and freedom. Scale towering cliffs and conquer vertical challenges in our rock climbing adventures. Whether you're a beginner or a seasoned climber, our expert guides ensure a safe yet thrilling climb, surrounded by stunning natural beauty.</p>
+                                            <p>Brace yourself for the rush of crashing waves and swirling rapids in our whitewater rafting adventures. Team up with fellow adventurers as you navigate through challenging waters, creating memories of camaraderie and triumph.</p>
+                                            <p>Soar through the treetops and embrace the sensation of flight in our zip-lining adventures. Our carefully designed zip-line courses offer a perfect blend of excitement and natural beauty, providing an unforgettable experience for thrill-seekers of all ages.</p>
+                                            <p>Glide through the air like a bird and savor the stunning landscapes below. Our paragliding excursions offer a perfect blend of serenity and excitement, providing an experience like no other.</p>
+                                            <p>Navigate the roaring rapids as you conquer the untamed rivers. Whether you're a beginner seeking a family-friendly outing or an experienced rafter craving the challenge of Class V rapids, our trips promise a wet and wild adventure.</p>
+                                            <p>Climb to new heights and conquer breathtaking cliffs with our expert guides. From beginner-friendly ascents to advanced multi-pitch climbs, our rock climbing experiences cater to all skill levels.</p>
+                                            
                                         </div>
-                                        <p>Don't have an account yet?
-                                            <a href="signup.html"> Register </a></p>
-                                    </form>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
+                        
+                    </section>
+                    <section  class="content-block">
+                        <div class="container">
+                            <div class="demo-wrapper">
+                                <div class="container-fluid">
+                                    <div class="text-center bottom-space"> <span class="big">Embark on Thrilling Escapades</span>
+                                        <h2><span class="heading-decore">Our Signature Adventure Activities</span></h2>
+                                    </div>
+                                </div>
+                                <div class="row masonary-block default-gallery">
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-1.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 12" href="img/portfolio-details-11.jpg" rel="gallery"></a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-1.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-2.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 13" href="img/portfolio-details-22.jpg" rel="gallery"></a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-2.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-3.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 14" href="img/portfolio-details-33.jpg" rel="gallery"> </a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-3.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-4.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 15" href="img/portfolio-details-44.jpg" rel="gallery"></a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-4.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-5.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 16" href="img/portfolio-details-55.jpg" rel="gallery"></a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-5.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-6.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 17" href="img/portfolio-details-66.jpg" rel="gallery"> </a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-6.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-7.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 18" href="img/portfolio-details-77.jpg" rel="gallery"></a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-7.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                    <div class="col-md-6 col-lg-3">
+                                        <figure class="caption-hover-full">
+                                            <a data-thumbnail="img/portfolio-details-8.jpg" class="fancybox-thumb fancy-pop" title="Portfolio 19" href="img/portfolio-details-88.jpg" rel="gallery"></a>
+                                            <div class="image-wrapper"><img src="img/portfolio-details-8.jpg" alt="images description"></div>
+                                        </figure>
+                                    </div>
+                                  
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    <aside class="content-block bg-gray-light">
+                        <div class="container">
+                            <div class="logo-container">
+                                <div class="owl-carousel logo-slide" id="Excursion-owl-slide-4">
+                                    <div class="slide-item"> <img src="img/e-brand1.png" alt="images description" /> </div>
+                                    <div class="slide-item"> <img src="img/e-brand2.png" alt="images description" /> </div>
+                                    <div class="slide-item"> <img src="img/e-brand3.png" alt="images description" /> </div>
+                                    <div class="slide-item"> <img src="img/e-brand4.png" alt="images description" /> </div>
+                                    <div class="slide-item"> <img src="img/e-brand5.png" alt="images description" /> </div>
+                                    <div class="slide-item"> <img src="img/e-brand6.png" alt="images description" /> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
                 <!--/main content wrapper -->
             </main>
         </div>
-         <!-- footer of the pagse -->
+          <!-- footer of the pagse -->
           <footer class="footer">
             <div class="content-block footer-main">
                 <div class="container">
@@ -344,13 +471,13 @@
         </footer>
         
         <!--/footer of the page -->
-    </div> 
-    <!-- open/close -->
-    <div class="search-form-wrapper overlay overlay-hugeinc"></button> 
+        </div> 
+        <!-- open/close -->
+        <div class="search-form-wrapper overlay overlay-hugeinc"></button>
         <!-- search form wrapper -->
-         <div class="search-form-wrapper bg-white dark-text"> <a href="#" class="nav-search-link close"><i class="fa-solid fa-xmark"></i> </a>
-            <div class="holder"> <input type="search" class="form-control form-control-v1" placeholder="Enter Your Search"> <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> </div>
-        </div></div> <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></a> 
+                <div class="search-form-wrapper bg-white dark-text"> <a href="#" class="nav-search-link close"><i class="fa-solid fa-xmark"></i> </a>
+                    <div class="holder"> <input type="search" class="form-control form-control-v1" placeholder="Enter Your Search"> <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> </div>
+                </div></div> <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></a> 
         <!-- jQuery Library -->
         <script src="vendors/jquery/jquery-2.1.4.min.js"></script> 
         <!-- Vendor Scripts -->
@@ -374,23 +501,6 @@
         
         <!-- Custom Script -->
         <script src="js/jquery.main.js"></script> 
+        </body>
         
-        
-         
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-</body>
-
-</html>
+        </html>

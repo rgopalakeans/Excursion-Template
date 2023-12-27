@@ -8,8 +8,8 @@
     <title>Excursion Travel & Trip Site Template</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <!-- Font Icons -->
-    <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css" />
-    <!--     <link media="all" rel="stylesheet" href="css/fonts/Excursion-font-icon/Excursion-font.css"> -->
+
+
     <link media="all" rel="stylesheet" href="vendors/font-awesome/css/all.css" />
     <!-- Vendors -->
     <link media="all" rel="stylesheet" href="vendors/owl-carousel/dist/assets/owl.carousel.min.css" />
@@ -46,8 +46,8 @@
         </ul>
         <nav class="header-links">
             <ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
+                <li><a href="signin.html">Login</a></li>
+                <li><a href="signup.html">Register</a></li>
             </ul>
         </nav>
         <div class="p-3">
@@ -83,7 +83,8 @@
                                             </li>
                                             <li>
                                                 <div class="dropdown mini-nav mini-nav-no-bg-hover"> <a
-                                                        href="mailto:youremail@excursion.com" class="nav-link"><i class="fa-solid fa-envelope"></i>
+                                                        href="mailto:youremail@excursion.com" class="nav-link"><i
+                                                            class="fa-solid fa-envelope"></i>
                                                         youremail@excursion.com</a> </div>
                                             </li>
                                         </ul>
@@ -92,10 +93,12 @@
                                         <ul
                                             class="i-list i-list-i-block i-list-i-block-sm i-list-i-block-no-hover pad-0-sm margin-bottom-0 float-right">
                                             <li>
-                                                <div class="dropdown mini-nav mini-nav-no-bg-hover"> <a href="#"> <i class="fa-regular fa-user"></i> Login </a> </div>
+                                                <div class="dropdown mini-nav mini-nav-no-bg-hover"> <a href="#"> <i
+                                                            class="fa-regular fa-user"></i> Login </a> </div>
                                             </li>
                                             <li>
-                                                <div class="dropdown mini-nav mini-nav-no-bg-hover"> <a href="#"> <i class="fa-solid fa-dollar-sign"></i> USD </a> </div>
+                                                <div class="dropdown mini-nav mini-nav-no-bg-hover"> <a href="#"> <i
+                                                            class="fa-solid fa-dollar-sign"></i> USD </a> </div>
                                             </li>
                                             <li>
                                                 <div class="dropdown mini-nav mini-nav-no-bg-hover"> <a href="#"> EN
@@ -122,13 +125,13 @@
                                         id="search_term" name="search_term" placeholder="Type & Press Enter"
                                         type="text" /> </div>
                             </form> <button type="button" class="navbar-toggler navbar-toggler-left"
-                                data-toggle="collapse" data-target="#mega-menu"> <span
-                                    class="navbar-toggler-icon"></span> </button> <a
+                                data-toggle="collapse" data-target="#mega-menu"> <i class="fa-solid fa-bars"></i>
+                            </button> <a
                                 class="navbar-brand mr-auto m-sm-auto" href="index.html"> <img src="img/logo.png"
                                     alt="Excursion" /> <img src="img/logo-dark.png" alt="Excursion" /> </a>
                             <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
                                 <ul class="nav navbar-nav">
-                                    <li class="dropdown" data-animation="fadeIn"> <a class="dropdown-toggle"
+                                    <li class="dropdown" data-animation="fadeIn"> <a class="dropdown-toggle active"
                                             data-toggle="dropdown" href="index.html" data-title="Home"> Home </a>
                                         <ul class="dropdown-menu no-border-radius">
                                             <li><a href="index.html"> Home i</a></li>
@@ -226,7 +229,7 @@
                                         </div>
                                     </li>
                                     <li> <a href="contact-us.html"> Contact Us </a> </li>
-                                    
+
                                 </ul>
                             </div>
                             <div class="navbar-pos-search with-side-panel"> <a href="#" class="nav-search-link"><i
@@ -244,23 +247,23 @@
                 <section class="banner home-ii">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-8 align-self-center">
-                                <div class="banner-text">
-                                    <h1>Lorem ipsum dolor consectetur adipisicing elit.</h1>
-                                    <p>Omnis in ipsa qui! Labore, assumenda tenetur ut vitae molestiae repudiandae totam
-                                        sed minima obcaecati esse amet similique quia adipisci commodi quo?</p>
-                                    <a class="btn btn-primary has-radius-small mt-4" href="/">Read More</a>
+                            <div class="col-lg-8 col-md-12  col-sm-12 align-self-center mt-4 mb-4">
+                                <div class="banner-text text-left">
+                                    <h1 class="title">From Peaks to Paddles, <br> Your Adventure Playground</h1>
+                                    <p class="sub-title">A range of adventurous experiences, such as hiking, climbing,
+                                        and water-based activities</p>
+                                    <a class="btn btn-primary has-radius-small" href="about.html">Read More</a>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
+                            <div class="col-lg-4 col-md-12  col-sm-12  mt-4 mb-4">
                                 <form>
                                     <h3 class="m-0">Inquiry Form</h3>
                                     <input type="text" placeholder="First Name" required>
                                     <input type="text" placeholder="Last Name" required>
-                                    <input type="email" placeholder="Mail" required>
+                                    <input type="email" placeholder="Email" required>
                                     <input type="number" placeholder="Phone" required>
                                     <textarea placeholder="Message"></textarea>
-                                    <input type="submit" class="btn btn-primary has-radius-small">
+                                    <input type="submit" class="btn btn-primary has-radius-small" value="Submit">
 
                                 </form>
                             </div>
@@ -276,12 +279,18 @@
                                 <div class="row">
                                     <div class="col-lg-6 align-self-center">
                                         <div class="text-wrap">
-                                            <h2>The Art.</h2>
-                                            <p><span>When you have limited space to showcase work.</span></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam,</p>
-                                            <div class="mt-4"><a href="#" class="btn btn-primary has-radius-small">Read
+                                            <h2>Chill Out, Thrill Out </h2>
+                                            <p><span>Where Relaxing Moments Meet Heart-Pounding Adventures</span></p>
+                                            <p>An exhilarating winter sport that combines elements of surfing,
+                                                skateboarding, and skiing on snow-covered slopes. Originating
+                                                in the 1960s, snowboarding has evolved into a popular and dynamic
+                                                activity enjoyed by people of all ages and skill levels. Riders
+                                                strap both feet onto a single snowboard and navigate down snow-covered
+                                                mountains, performing various tricks and maneuvers along the way.
+                                                The sport requires a unique set of skills, including balance, agility,
+                                                and a fearless attitude.</p>
+                                            <div class="mt-4"><a href="blog-single.html"
+                                                    class="btn btn-primary has-radius-small">Read
                                                     More</a></div>
                                         </div>
                                     </div>
@@ -294,12 +303,24 @@
                                 <div class="row">
                                     <div class="col col-lg-6 align-self-center">
                                         <div class="text-wrap text-lg-right">
-                                            <h2>The Code.</h2>
-                                            <p><span>Excursion is thoroughly tested for code and speed.</span></p>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                                                veniam,</p>
-                                            <div class="mt-4"><a href="#" class="btn btn-primary has-radius-small">Read
+                                            <h2>Rock on, climb strong</h2>
+                                            <p><span>Keep pushing your limits and reaching new heights! </span></p>
+                                            <p>Rock climbing fosters a strong sense of community, as climbers
+                                                often support and encourage each other, sharing tips and techniques.
+                                                Beyond the physical benefits, such as improved strength and flexibility,
+                                                rock climbing instills confidence, resilience, and a deep appreciation
+                                                for the beauty of the natural world. As individuals ascend to new
+                                                heights,
+                                                they not only challenge their bodies but also discover a profound sense
+                                                of
+                                                empowerment and a connection with the rock that becomes a metaphor for
+                                                overcoming life's obstacles. Whether scaling rugged cliffs in the great
+                                                outdoors or tackling routes in indoor climbing gyms, enthusiasts
+                                                experience
+                                                a profound connection with nature and a sense of accomplishment as they
+                                                conquer heights and overcome obstacles. </p>
+                                            <div class="mt-4"><a href="blog-single.html"
+                                                    class="btn btn-primary has-radius-small">Read
                                                     More</a></div>
                                         </div>
                                     </div>
@@ -315,7 +336,7 @@
                 </div>
                 <!--/main content wrapper -->
 
-                <section class="content-block information-block p-0 parallax" data-stellar-background-ratio="0.55">
+                <section class="content-block information-block p-0 parallax" >
                     <div class="container-fluid">
                         <div class="row">
                             <div class="info-block info-block-v2 block-1 col-sm-6 col-lg-3 text-center">
@@ -339,9 +360,9 @@
                                         </g>
                                     </svg>
                                 </div>
-                                <h3 class="block-title">Project Planning</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore </p>
+                                <h3 class="block-title">Drive into the Wild</h3>
+                                <p>An exhilarating and untamed journey that transcends
+                                    the boundaries of conventional experiences. </p>
                             </div>
                             <div class="info-block info-block-v2 block-2 col-sm-6 col-lg-3 text-center">
                                 <div class="icon">
@@ -353,9 +374,9 @@
                                             d="M429.29 418.815a475.448 475.448 0 01-25.832 3.07 767.655 767.655 0 01-2.882 22.909 239.321 239.321 0 0023.563-20.659 237.092 237.092 0 005.151-5.32zm1.142-174.246c8.538 8.538 14.256 19.905 15.624 32.57 15.501.401 31.09.379 46.794.003.613-6.966.929-14.017.929-21.144 0-48.033-14.246-92.747-38.741-130.136-28.759-2.61-57.599-3.005-86.156-.651-.317 13.864-5.843 26.458-14.697 35.903a320.299 320.299 0 0130.586 61.119c.82 2.197 1.615 4.397 2.385 6.603a55.415 55.415 0 014.791-.209c15.001 0 28.599 6.096 38.485 15.942zm14.56 50.71a54.28 54.28 0 01-9.912 20.927 54.968 54.968 0 01-12.325 11.696 54.235 54.235 0 01-15.97 7.524c.995 22.355.36 45.051-1.54 68.01a464.501 464.501 0 0042.003-6.125c21.829-29.497 37.005-64.223 43.289-101.957-15.276.328-30.451.319-45.545-.075zm-56.318 42.106c-13.727-.814-26.086-6.723-35.212-15.883-9.424-9.427-15.414-22.29-15.908-36.529-18.875-3.283-37.69-7.411-56.484-12.497a2072.75 2072.75 0 01-25.669 75.766 54.932 54.932 0 0111.1 8.543c9.846 9.846 15.943 23.457 15.943 38.486 0 1.18-.038 2.35-.113 3.514 33.403 5.881 68.37 8.2 104.54 6.094 1.996-22.831 2.729-45.358 1.803-67.494zm-48.726-70.455a54.411 54.411 0 0113.514-22.361 54.473 54.473 0 0116.074-11.126 337.664 337.664 0 00-1.772-4.876c-7.192-19.269-16.446-38.094-28.079-56.399a54.087 54.087 0 01-25.215 6.2c-1.953 0-3.884-.103-5.784-.304a2172.655 2172.655 0 01-22.18 77.039c17.773 4.789 35.578 8.698 53.442 11.827zm77.612-9.489a36.085 36.085 0 00-23.081-10.506c-7.258-.466-14.265 1.089-20.581 4.726a36.272 36.272 0 00-11.767 10.844c-5.78 8.359-7.661 18.584-5.549 28.364a36.127 36.127 0 009.743 17.808 36.417 36.417 0 0015.926 9.273 36.379 36.379 0 0026.546-2.826 36.48 36.48 0 008.773-6.447c3.389-3.452 5.943-7.74 7.914-12.19 2.958-6.757 3.484-14.782 1.606-21.895-1.79-6.669-4.901-12.488-9.53-17.151zM278.131 416.499l-.1.232c-8.343 19.366-27.622 32.967-50.015 32.967-4.046 0-7.99-.444-11.783-1.283a1954.274 1954.274 0 01-16.8 38.595c18.127 4.425 37.074 6.766 56.565 6.766 45.462 0 87.937-12.762 124.053-34.889 1.925-11.961 3.596-23.857 4.958-35.684-36.965 1.918-72.708-.601-106.878-6.704zm-78.766 25.04a54.595 54.595 0 01-9.834-7.821c-9.846-9.849-15.942-23.447-15.942-38.447 0-3.255.287-6.444.835-9.539-39.906-16.681-78.15-38.495-112.626-64.844-7.186 11.574-14.165 23.742-20.916 36.539a238.328 238.328 0 0046.98 66.708c26.032 26.033 58.079 46.053 93.876 57.811a1956.13 1956.13 0 0017.627-40.407zm-18.782-72.977a54.635 54.635 0 018.948-11.777c9.846-9.845 23.457-15.942 38.485-15.942 3.534 0 6.989.338 10.337.983a2052.876 2052.876 0 0025.21-74.37c-24.721-7.495-49.411-16.712-74.163-27.907-10.247 13.886-26.418 22.158-43.803 22.158a54.079 54.079 0 01-31.96-10.391c-14.493 16.128-28.42 34.026-41.686 53.833 32.025 24.575 68.539 46.419 108.632 63.413zm73.046 1.096c-6.816-6.817-15.973-10.594-25.613-10.594-9.999 0-19.056 4.056-25.603 10.603a36.667 36.667 0 00-3.652 4.266c-4.824 6.644-7.255 14.656-6.917 22.959a36.148 36.148 0 0010.55 24.001c.982.98 2.028 1.903 3.114 2.764 6.538 5.107 14.221 7.821 22.508 7.821a36.171 36.171 0 0025.623-10.585 36.421 36.421 0 005.192-6.572c4.14-6.732 5.959-14.497 5.239-22.386-.792-8.667-4.638-16.459-10.441-22.277zm-59.563-187.162a54.196 54.196 0 015.959 24.783c0 5.574-.842 10.957-2.407 16.027 23.829 10.738 47.593 19.585 71.378 26.79a2153.591 2153.591 0 0022.161-76.961 54.533 54.533 0 01-15.173-10.71v-.037a54.72 54.72 0 01-10.64-15.032 360.866 360.866 0 00-52.766 24.076 359.48 359.48 0 00-18.512 11.064zm-93.179 55.789a54.105 54.105 0 01-9.718-31.006c0-7.145 1.381-13.97 3.884-20.223-17.156-11.389-34.394-23.864-51.729-37.503-16.062 32.026-25.103 68.179-25.103 106.445l.006 1.268c12.099 12.541 25.278 24.777 39.443 36.501 13.742-20.393 28.179-38.842 43.217-55.482zm3.653-66.734a54.918 54.918 0 012.572-2.757c9.846-9.846 23.457-15.942 38.485-15.942 14.547 0 27.773 5.733 37.574 15.057a379.415 379.415 0 0177.187-38.073 54.66 54.66 0 01-.316-5.896 54.19 54.19 0 019.602-30.877c-25.532-21.657-55.955-42.253-91.993-61.629-34.151 11.915-64.749 31.387-89.789 56.428a238.706 238.706 0 00-35.66 45.574c17.551 13.907 34.986 26.582 52.338 38.115zm61.353 5.724a36.172 36.172 0 00-20.296-6.203 36.073 36.073 0 00-23.209 8.416c-5.975 5.014-10.24 11.808-12.021 19.401a36.207 36.207 0 00-.977 8.39c0 5.44 1.196 10.6 3.333 15.226 3.158 6.857 8.344 12.44 14.847 16.19a36.16 36.16 0 0018.027 4.791 36.166 36.166 0 0025.622-10.584c5.18-5.18 8.798-12.03 10.028-19.254.363-2.068.557-4.2.557-6.369 0-4.002-.648-7.855-1.847-11.451-2.488-7.536-7.561-14.18-14.064-18.553zM314.47 69.512c.61 0 1.217.01 1.821.032a2338.934 2338.934 0 008.591-41.19c-21.808-6.587-44.929-10.133-68.884-10.133-18.477 0-36.463 2.106-53.732 6.096C233.002 41.95 259.538 60.546 282.347 80a54.178 54.178 0 0132.123-10.488zm19.66 3.671a54.482 54.482 0 0118.787 12.272h.038a54.428 54.428 0 0113.314 21.735c24.786-2.097 49.761-2.197 74.701-.622a239.572 239.572 0 00-16.831-18.706c-23.094-23.091-50.92-41.452-81.894-53.514a2373.442 2373.442 0 01-8.115 38.835zm5.953 25.144c-12.725-12.731-32.884-13.921-47.008-3.602-2.816 2.04-5.477 4.722-7.526 7.427a36.123 36.123 0 00-7.121 18.299c-.804 8.397 1.293 16.727 5.997 23.722a36.561 36.561 0 0011.498 10.885v-.006a36.182 36.182 0 007.399 3.348c4.722 1.55 9.883 2.053 14.819 1.566a35.867 35.867 0 008.988-2.085 36.187 36.187 0 0014.243-9.68 36.699 36.699 0 003.008-3.818 35.875 35.875 0 005.689-13.777c1.412-7.708.348-15.757-3.164-22.781a36.366 36.366 0 00-6.822-9.498zM255.998 0c70.69 0 134.697 28.658 181.022 74.98C483.342 121.305 512 185.309 512 255.998c0 70.69-28.658 134.694-74.98 181.019-46.325 46.322-110.332 74.98-181.022 74.98-70.689 0-134.693-28.658-181.018-74.98C28.655 390.692 0 326.688 0 255.998c0-42.6 10.412-82.769 28.821-118.106l-.32-.263 1.265-1.536A256.855 256.855 0 0174.98 74.98C121.305 28.655 185.309 0 255.998 0zM19.951 284.797a236.256 236.256 0 0011.977 50.954 604.668 604.668 0 0115.53-26.267 456.961 456.961 0 01-27.507-24.687z" />
                                     </svg>
                                 </div>
-                                <h3 class="block-title">Product Design</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore </p>
+                                <h3 class="block-title">Skydiving Wonders</h3>
+                                <p>A thrilling and adrenaline-pumping adventure that offers
+                                    an unparalleled experience of defying gravity. </p>
                             </div>
                             <div class="info-block info-block-v2 block-3 col-sm-6 col-lg-3 text-center">
                                 <div class="icon">
@@ -367,9 +388,9 @@
                                             d="m72.01 239.16-10.18-46.48c44.67-56.59 146.09-52.69 190.34 0l-12.73 46.48c-56.69-14.15-112.43-13.02-167.43 0zm-23.3-126.3c3.69 40.1 1.93 87.92.07 138.39-1.71 46.63-3.51 95.53-1.15 142.47v.2c.02 20.98.26 38.19 5.49 53 5.17 14.61 15.38 27.35 35.38 39.91 20.25 12.71 49.42 18.68 77.89 17.14 26.8-1.45 52.83-9.57 69.95-25 28.71-25.88 28.65-45.54 28.55-78.59v-6.77c4.35-56.54 2.36-109.01.42-160.18-1.51-39.82-2.99-78.89-1.45-118.51 1.99-51.33-22.91-82.89-56.38-97.25-15.92-6.83-33.79-9.83-51.65-9.26-17.9.57-35.78 4.72-51.69 12.17-34.37 16.11-59.52 47.81-55.43 92.28zm-8.26 138.09c.63-17.28 1.26-34.24 1.65-50.67-.19.16-.37.36-.55.57-3 3.67-1.74 8.2-3.24 12.14-.35.92-.8 1.7-1.35 2.33-.91 1.05-2.99 1.8-5.47 2.34-5.81 1.27-24.02 3.39-28.56 1.55-2.67-1.08-3.69-4.2-2.32-8.52 2.06-5.9 5.49-9.24 10.47-12.21 8.44-5.03 18.32-6.53 31.21-6.71.54-28.15.29-54.59-1.88-78.16-4.47-48.54 22.85-83.07 60.2-100.58C117.54 5.1 136.56.68 155.57.07c19.05-.6 38.14 2.61 55.18 9.92 36.46 15.64 63.6 49.82 61.45 105.22-1 25.59-.72 51.01.01 76.57 12.64.21 22.38 1.73 30.71 6.7 4.98 2.97 8.41 6.31 10.47 12.21 1.37 4.32.35 7.44-2.32 8.52-4.54 1.84-22.75-.28-28.56-1.55-2.48-.54-4.56-1.29-5.47-2.34-.55-.63-1-1.41-1.35-2.33-1.5-3.92-.25-8.44-3.21-12.09.35 10.71.76 21.44 1.17 32.24 1.95 51.46 3.96 104.24-.44 161.08l.02 6.16c.11 35.39.17 56.44-31.3 84.81-18.61 16.76-46.53 25.57-75.11 27.12-30.07 1.62-61.06-4.79-82.76-18.42-21.81-13.7-33.03-27.82-38.81-44.18-5.71-16.15-5.98-34.04-5.98-55.79-2.35-47.17-.54-96.21 1.18-142.97zm17 101.69c-5.77-33.58-4.72-85.25 1.96-118.75 12.44 46.89 9.61 73.36-1.96 118.75zm199.1 0c5.77-33.58 4.72-85.25-1.96-118.75-12.44 46.89-9.61 73.36 1.96 118.75zm-73.43-330.6c17.76 6.64 33.15 15.6 45.41 27.42 12.31 11.86 21.48 26.61 26.75 44.78.22.78-.23 1.61-1.02 1.84-.47.13-.95.03-1.31-.24-14.17-10.64-30.17-24.24-43.91-37.97-11.68-11.67-21.77-23.48-27.77-33.71a1.483 1.483 0 0 1 1.85-2.12zM80.73 53.71c12.26-11.82 27.65-20.78 45.41-27.42a1.483 1.483 0 0 1 1.85 2.12c-6 10.23-16.08 22.03-27.76 33.71-13.74 13.73-29.75 27.33-43.92 37.97-.36.27-.84.37-1.31.24a1.493 1.493 0 0 1-1.01-1.84c5.26-18.17 14.43-32.92 26.74-44.78zm-7.62 331.93 8.3-23.77c52.96 8.23 108.05 7.6 151.98-.15l7.5 22.45c-59.25 28.5-105.72 31.61-167.78 1.47z" />
                                     </svg>
                                 </div>
-                                <h3 class="block-title">After Spales Service</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore </p>
+                                <h3 class="block-title">Desert Safari</h3>
+                                <p>Embarking on a desert safari is a thrilling adventure that
+                                    immerses travelers in the stark beauty of arid landscapes. </p>
                             </div>
                             <div class="info-block info-block-v2 block-4 col-sm-6 col-lg-3 text-center">
                                 <div class="icon">
@@ -387,9 +408,9 @@
                                             d="M90.4,28.29l.08.24.22.62.08.24L91,30l.08.24.19.56.08.23.18.53.08.23.17.5.08.23L92,33l.07.23.15.44.08.23.14.4.08.23.13.38.08.22.12.35.07.22L93,36l.07.21.11.31.07.21.1.29.07.2.09.26.07.2.09.25.07.19.08.23.06.18.07.21.06.18.07.2.06.17.07.18,0,.17.06.16.06.16,0,.15,0,.16,0,.14.05.15,0,.12,0,.15,0,.11,0,.14,0,.1,0,.13,0,.1,0,.12,0,.09,0,.12,0,.08,0,.11,0,.07,0,.1,0,.07,0,.1,0,.06,0,.09v.06l0,.09,0,0,0,.08v0l0,.09,0,.11v.25h0l0,.18v.5h0V44h0v.08h0v.29h0v.35h0v.13h0v.13h0v.15h0v.16h0v.17h0v.18h0V46h0v.22h0v.24c.07,5,6.36,11,5.2,14.44s4.68,9.9,6.56,14.71H98.63a3.31,3.31,0,0,0-.6-1.91L79.93,44.76l3-4.85,3.65-3.66,3.69-8.1h0l.08.14ZM92.19,27l30.28,48.39a2.17,2.17,0,0,1,.41,1.28,2.21,2.21,0,0,1-2.21,2.21H3.28A3.28,3.28,0,0,1,.53,73.79L47.26,1.66A3.16,3.16,0,0,1,48.37.5,3.29,3.29,0,0,1,52.9,1.55L78.46,42.41l10-15.35a2.07,2.07,0,0,1,.75-.78,2.2,2.2,0,0,1,3,.71ZM52.44,75.58H3.9L14.33,61.79l16-28L39.47,23.2l4.65-10.28,6-9.64h0l.12.2c.88,2.66,1.26,4.11,2,6.25.44,1.23,2.3,3.91,2.67,4.93,5.31,14.76,2.62,9.34,2.69,15.88.08,7.51,9.47,16.45,7.74,21.53-1.93,5.62,8.38,16.22,10.31,23.51Z" />
                                     </svg>
                                 </div>
-                                <h3 class="block-title">Customer Support</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                    incididunt ut labore </p>
+                                <h3 class="block-title">Scaling Peaks</h3>
+                                <p>Challenging adventure sport that combines physical strength,
+                                    mental focus, and a deep connection with nature. </p>
                             </div>
                         </div>
                     </div>
@@ -399,7 +420,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12 less-wide">
-                                <div class="heading-main"> <span class="big">Sub Heading</span>
+                                <div class="heading-main"> <span class="big">Explore, Discover, Thrive</span>
                                     <h2><span class="heading-decore">Adventure Packages </span></h2>
                                 </div>
                                 <div class="tab-container tab-center-container text-center">
@@ -407,75 +428,130 @@
                                     <ul class="nav nav-tabs tab-text-nav" role="tablist">
                                         <li class="nav-item">
                                             <a class="nav-link active" data-toggle="tab" href="#tab5" role="tab"
-                                                aria-expanded="true">Packages 1</a>
+                                                aria-expanded="true">SafariSprint</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="tab" href="#tab6" role="tab"
-                                                aria-expanded="false"> Packages 2</a>
+                                                aria-expanded="false">SkySafari</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="tab" href="#tab7" role="tab"
-                                                aria-expanded="false"> Packages 3</a>
+                                                aria-expanded="false">RockRover</a>
                                         </li>
                                         <li class="nav-item">
                                             <a class="nav-link" data-toggle="tab" href="#tab8" role="tab"
-                                                aria-expanded="false"> Packages 4</a>
+                                                aria-expanded="false">TrekTribe</a>
                                         </li>
                                     </ul>
                                     <!-- Tab panes -->
                                     <div class="top-m-space tab-content">
                                         <div class="tab-pane fade active show" id="tab5" role="tabpanel"
                                             aria-expanded="true">
-                                            <p>Indulgence announcing uncommonly met she continuing two unpleasing
-                                                terminated. Now busy say down the shed eyes roof paid her. Of shameless
-                                                collected suspicion existence in. Share walls stuff think but the arise
-                                                guest. Course suffer to do he sussex it window advice. Yet matter enable
-                                                misery end extent common men should. Her indulgence but assistance
-                                                favourable cultivated everything collecting. Now busy say down the
-                                                shed eyes roof paid her. Of shameless collected suspicion existence in.
+                                            <p>Embarking on a wild safari is a thrilling journey into the
+                                                heart of untamed landscapes, where the rhythms of nature
+                                                dictate the course of adventure. The air is charged with
+                                                anticipation as one ventures into the wilderness, surrounded
+                                                by an ecosystem pulsating with life. The safari experience
+                                                is a symphony of sights and sounds, with the rustling of leaves
+                                                and the distant calls of exotic creatures providing a backdrop
+                                                to the majestic scenery. The open savannah stretches endlessly,
+                                                punctuated by acacia trees and populated by an array of wildlife,
+                                                from the graceful giraffes grazing on treetops to the powerful
+                                                lions prowling in search of prey.
+                                            </p>
+                                            <p>The safari vehicle becomes a portal to a world where every turn
+                                                reveals a new chapter in the drama of the wild. It's a dance
+                                                with nature, a chance to witness the circle of life unfold in
+                                                its raw and unfiltered beauty. As the sun sets on the horizon,
+                                                casting a warm glow over the savannah, the memories of a wild
+                                                safari linger, leaving an indelible imprint of the untamed wonders
+                                                that define the heart of Africa and other wild terrains across the
+                                                globe.
                                             </p>
                                         </div>
                                         <div class="tab-pane fade" id="tab6" role="tabpanel" aria-expanded="false">
-                                            <p>Indulgence announcing uncommonly met she continuing two unpleasing
-                                                terminated. Now busy say down the shed eyes roof paid her. Of shameless
-                                                collected suspicion existence in. Share walls stuff think but the arise
-                                                guest. Course suffer to do he sussex it window advice. Yet matter enable
-                                                misery end extent common men should. Her indulgence but assistance
-                                                favourable cultivated everything collecting. Now busy say down the
-                                                shed eyes roof paid her. Of shameless collected suspicion existence in.
+                                            <p>Skydiving is an exhilarating and heart-pounding adventure that provides
+                                                an unparalleled thrill for those seeking an adrenaline rush. As
+                                                adrenaline
+                                                junkies take the plunge from an aircraft soaring thousands of feet above
+                                                the Earth, they experience an extraordinary sense of freedom and
+                                                weightlessness.
+                                                The moment of departure, when the world below transforms into a
+                                                breathtaking panorama,
+                                                marks the beginning of an unforgettable journey. The sensation of wind
+                                                rushing past
+                                                and the vast expanse of the sky enveloping the diver create a unique and
+                                                indescribable feeling.
                                             </p>
-                                            <p>Indulgence announcing uncommonly met she continuing two unpleasing
-                                                terminated. Now busy say down the shed eyes roof paid her. Of shameless
-                                                collected suspicion existence in. Share walls stuff think but the arise
-                                                guest. Course suffer to do he sussex it window advice. Yet matter enable
-                                                misery end extent common men should. Her indulgence but assistance
-                                                favourable cultivated everything collecting. Now busy say down the
-                                                shed eyes roof paid her. Of shameless collected suspicion existence in.
+                                            <p>With the earth below growing closer with each passing second, the
+                                                parachute
+                                                deployment becomes a moment of both relief and awe. Skydiving is not
+                                                just
+                                                a physical activity; it's a mental challenge that pushes individuals
+                                                beyond
+                                                their comfort zones, fostering courage and a profound sense of
+                                                accomplishment.
+                                                The experience of free-falling and the subsequent gentle descent under
+                                                the canopy
+                                                make skydiving a truly remarkable and life-changing adventure for those
+                                                brave enough
+                                                to take the leap into the boundless skies.
                                             </p>
                                         </div>
                                         <div class="tab-pane fade" id="tab7" role="tabpanel" aria-expanded="false">
-                                            <p>Indulgence announcing uncommonly met she continuing two unpleasing
-                                                terminated. Now busy say down the shed eyes roof paid her. Of shameless
-                                                collected suspicion existence in. Share walls stuff think but the arise
-                                                guest. Course suffer to do he sussex it window advice. Yet matter enable
-                                                misery end extent common men should. Her indulgence but assistance
-                                                favourable cultivated everything collecting. Now busy say down the
-                                                shed eyes roof paid her. Of shameless collected suspicion existence in.
-                                                he arise guest. Course suffer to do he sussex it window advice. Yet
-                                                matter enable misery end extent common men should. Her indulgence but
-                                                assistance favourable cultivated everything collecting. Now busy say
-                                                down the shed eyes roof paid her. Of shameless collected suspicion
-                                                existence in.</p>
+                                            <p>Rock climbing is a exhilarating and challenging outdoor activity that
+                                                combines
+                                                physical strength, mental focus, and a deep connection with nature.
+                                                Climbers
+                                                ascend natural rock formations or artificial climbing walls using a
+                                                variety of
+                                                techniques and specialized equipment. The sport demands not only
+                                                physical fitness
+                                                but also problem-solving skills as climbers navigate intricate routes,
+                                                assessing
+                                                hand and footholds while strategizing their ascent. The unique appeal of
+                                                rock climbing
+                                                lies in the blend of athleticism and the opportunity to commune with the
+                                                natural environment. </p>
+                                            <p>Whether scaling towering cliffs, granite walls, or limestone crags,
+                                                climbers
+                                                experience a profound sense of accomplishment and awe as they reach the
+                                                summit.
+                                                Beyond the physical and mental benefits, rock climbing fosters a strong
+                                                sense of
+                                                camaraderie among climbers, emphasizing teamwork, trust, and
+                                                communication.
+                                                It is a pursuit that not only pushes personal boundaries but also
+                                                encourages
+                                                a deep appreciation for the beauty of the great outdoors. </p>
                                         </div>
                                         <div class="tab-pane fade" id="tab8" role="tabpanel" aria-expanded="false">
-                                            <p>Indulgence announcing uncommonly met she continuing two unpleasing
-                                                terminated. Now busy say down the shed eyes roof paid her. Of shameless
-                                                collected suspicion existence in. Share walls stuff think but the arise
-                                                guest. Course suffer to do he sussex it window advice. Yet matter enable
-                                                misery end extent common men should. Her indulgence but assistance
-                                                favourable cultivated everything collecting. Now busy say down the
-                                                shed eyes roof paid her. Of shameless collected suspicion existence in.
+                                            <p>A captivating outdoor activity that allows individuals to connect with
+                                                nature,
+                                                challenge their physical limits, and experience the beauty of diverse
+                                                landscapes.
+                                                Whether ascending majestic mountain peaks, traversing dense forests, or
+                                                exploring
+                                                rugged terrains, trekking offers a unique blend of adventure and
+                                                serenity.
+                                                It provides an opportunity to escape the hustle and bustle of daily
+                                                life,
+                                                immersing oneself in the tranquility of natural surroundings. The
+                                                rhythmic sound
+                                                of footsteps on winding trails, the crisp mountain air, and the
+                                                breathtaking vistas
+                                                along the way make trekking an invigorating and meditative experience.
                                             </p>
+                                            <p>Trekking fosters a sense of camaraderie among participants, as they share
+                                                the challenges and triumphs of the journey. It is not merely a physical
+                                                endeavor
+                                                but also a mental and emotional exploration, encouraging self-discovery
+                                                and resilience.
+                                                Whether undertaken solo or in a group, trekking offers a profound
+                                                connection with
+                                                the outdoors, leaving trekkers with enduring memories and a renewed
+                                                appreciation
+                                                for the wonders of the natural world.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -503,10 +579,14 @@
                                             <img src="img/Blog_Image_15.jpg" alt="images">
                                         </div>
                                         <div class="post-text-block bg-gray-light">
-                                            <strong class="content-title mb-0">Heading South</strong>
-                                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                                auctor aliquet. Auctor, nisi elit consequat ipsum,</p>
-                                            <a class="btn btn-primary has-radius-small mt-2" href="#">Read Story</a>
+                                            <strong class="content-title mb-0">Adventure Wild Camping
+                                                Experience</strong>
+                                            <p>The ultimate adventure wild camping experience, where nature is your
+                                                playground
+                                                and the wilderness becomes your home. The essentials, tips, and tales of
+                                                wild camping.</p>
+                                            <a class="btn btn-primary has-radius-small mt-2"
+                                                href="blog-single.html">Read Story</a>
                                         </div>
                                     </div>
                                 </div>
@@ -518,10 +598,14 @@
                                             <img src="img/Blog_Image_14.jpg" alt="images">
                                         </div>
                                         <div class="post-text-block bg-gray-light">
-                                            <strong class="content-title mb-0">Product Design</strong>
-                                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                                auctor aliquet. Auctor, nisi elit consequat ipsum,</p>
-                                            <a class="btn btn-primary has-radius-small mt-2" href="#">Read Story</a>
+                                            <strong class="content-title mb-0">Thrills and Challenges in Motorcycle
+                                                Raids</strong>
+                                            <p>The adrenaline-fueled world of motorcycle raids, where the open road
+                                                becomes a
+                                                battleground for both man and machine. Delve into the thrills and
+                                                challenges that riders face</p>
+                                            <a class="btn btn-primary has-radius-small mt-2"
+                                                href="blog-single.html">Read Story</a>
                                         </div>
                                     </div>
                                 </div>
@@ -533,10 +617,13 @@
                                             <img src="img/Blog_Image_13.jpg" alt="images">
                                         </div>
                                         <div class="post-text-block bg-gray-light">
-                                            <strong class="content-title mb-0">Working Remotely</strong>
-                                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                                auctor aliquet. Auctor, nisi elit consequat ipsum,</p>
-                                            <a class="btn btn-primary has-radius-small mt-2" href="#">Read Story</a>
+                                            <strong class="content-title mb-0">Turning a Road Trip into an Epic
+                                                Adventure</strong>
+                                            <p>Embarking on a road trip is more than just a journey from point A to
+                                                point B;
+                                                it's an opportunity to turn the ordinary into the extraordinary.</p>
+                                            <a class="btn btn-primary has-radius-small mt-2"
+                                                href="blog-single.html">Read Story</a>
                                         </div>
                                     </div>
                                 </div>
@@ -548,10 +635,13 @@
                                             <img src="img/Blog_Image_12.jpg" alt="images">
                                         </div>
                                         <div class="post-text-block bg-gray-light">
-                                            <strong class="content-title mb-0">Leaving With A Note</strong>
-                                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                                auctor aliquet. Auctor, nisi elit consequat ipsum,</p>
-                                            <a class="btn btn-primary has-radius-small mt-2" href="#">Read Story</a>
+                                            <strong class="content-title mb-0">Navigating the Frozen Waters by
+                                                Kayak</strong>
+                                            <p>Kayak journey through frozen waters may seem like an unconventional
+                                                choice,
+                                                but for those seeking a unique and thrilling winter adventure.</p>
+                                            <a class="btn btn-primary has-radius-small mt-2"
+                                                href="blog-single.html">Read Story</a>
                                         </div>
                                     </div>
                                 </div>
@@ -560,14 +650,16 @@
                                 <div class="col-wrap">
                                     <div class="post-grid">
                                         <div class="img-block">
-                                            <img src="img/Blog_Image_15.jpg" alt="images">
+                                            <img src="img/Blog_Image_11.jpg" alt="images">
                                         </div>
                                         <div class="post-text-block bg-gray-light">
-                                            <strong class="content-title mb-0">Break Timings</strong>
-                                            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit
-                                                auctor aliquet. Auctor, nisi elit consequat ipsum,</p>
-
-                                            <a class="btn btn-primary has-radius-small mt-2" href="#">Read Story</a>
+                                            <strong class="content-title mb-0">Stories from the Adventure Travel
+                                                Trail</strong>
+                                            <p>The exhilarating tales of fearless explorers and intrepid adventurers
+                                                who have embarked on journeys that push the boundaries of the ordinary.
+                                            </p>
+                                            <a class="btn btn-primary has-radius-small mt-2"
+                                                href="blog-single.html">Read Story</a>
 
                                         </div>
                                     </div>
@@ -579,10 +671,11 @@
                 <section class="content-block consult-block home-ii-bg-1">
                     <div class="container">
                         <div class="inner-wrapper text-center">
-                            <h3 class="block-top-heading text-white">BEST EVER DESIGN</h3>
-                            <h2 class="bottom-m-space text-white">Thinking of starting a project with us?</h2>
+                            <h3 class="block-top-heading text-white">DARE TO EXPLORE</h3>
+                            <h2 class="bottom-m-space text-white">Embark on the Extraordinary: Your Adventure Awaits!
+                            </h2>
                             <div class="btn-container">
-                                <a href="#" class="btn btn-small-font btn-trans-white">GET CONSULTATION</a>
+                                <a href="contact-us.html" class="btn btn-trans-white">Get Consultant</a>
                             </div>
                         </div>
                     </div>
@@ -590,8 +683,8 @@
 
                 <section class="content-block bg-gray-light">
                     <div class="container">
-                        <div class="heading-main"> <span class="big">Sub Heading</span>
-                            <h2><span class="heading-decore">Recent Activity</span></h2>
+                        <div class="heading-main"> <span class="big">Explore the Unknown!</span>
+                            <h2><span class="heading-decore">Recent Activities</span></h2>
                         </div>
                         <div class="demo-wrapper">
                             <div class="team-container">
@@ -600,7 +693,7 @@
                                         <figure class="team-box">
                                             <div class="img-block border-hover-effect">
                                                 <img src="img/home-2-4.jpg" alt="images description">
-                                                <h4 class="title">Consectetur adipisicing elit.</h4>
+                                                <h4 class="title">Navigate the Sands, Discover the Thrills</h4>
                                             </div>
                                         </figure>
                                     </div>
@@ -608,7 +701,7 @@
                                         <figure class="team-box">
                                             <div class="img-block border-hover-effect">
                                                 <img src="img/home-2-5.jpg" alt="images description">
-                                                <h4 class="title">Consectetur adipisicing elit.</h4>
+                                                <h4 class="title">Scaling Peaks, Chasing Dreams</h4>
                                             </div>
                                         </figure>
                                     </div>
@@ -616,7 +709,7 @@
                                         <figure class="team-box">
                                             <div class="img-block border-hover-effect">
                                                 <img src="img/home-2-6.jpg" alt="images description">
-                                                <h4 class="title">Consectetur adipisicing elit.</h4>
+                                                <h4 class="title">Breathe Deep, Dive Deeper</h4>
                                             </div>
                                         </figure>
                                     </div>
@@ -624,7 +717,7 @@
                                         <figure class="team-box">
                                             <div class="img-block border-hover-effect">
                                                 <img src="img/home-2-7.jpg" alt="images description">
-                                                <h4 class="title">Consectetur adipisicing elit.</h4>
+                                                <h4 class="title">Fly Fearless, Dive Limitless!</h4>
                                             </div>
                                         </figure>
                                     </div>
@@ -632,7 +725,7 @@
                                         <figure class="team-box">
                                             <div class="img-block border-hover-effect">
                                                 <img src="img/home-2-8.jpg" alt="images description">
-                                                <h4 class="title">Consectetur adipisicing elit.</h4>
+                                                <h4 class="title">Ocean Vibes, Adventure Thrives!</h4>
                                             </div>
                                         </figure>
                                     </div>
@@ -655,10 +748,9 @@
                                 <p>Embark on Adventures Unbound, Explore, Experience, and Create Memories Profound!</p>
                             </div>
                             <div class="Excursion_newsletter-form newsletter-v1 mt-5">
-                                <form action="#" method="post">
+                                <form>
                                     <fieldset class="clearfix">
-                                        <div class="form-group input-holder"> <input type="email" class="form-control"
-                                                placeholder="Email Address"> <button type="submit" class="btn"><i
+                                        <div class="form-group input-holder"> <input required type="email" class="form-control" placeholder="Email Address"> <button type="submit" class="btn"><i
                                                     class="fa-solid fa-paper-plane"></i></button> </div>
                                     </fieldset>
                                 </form>
@@ -711,7 +803,7 @@
                                         <div class="post-desc">
                                             <h6><a href="blog-single.html">Exploring the Beauty of Desert Safaris</a>
                                             </h6>
-                                            <p>Jason - 3rd Feb 24 </p>
+                                            <p>Jason - 25th Dec 23 </p>
                                         </div>
                                     </div>
                                     <div class="post-holder"> <a href="blog-single.html" class="post-link"></a>
@@ -719,7 +811,7 @@
                                                     alt="image description"></a> </div>
                                         <div class="post-desc">
                                             <h6><a href="#">Boating Adventures in the Jungle</a></h6>
-                                            <p>Cleona - 7th May 24 </p>
+                                            <p>Cleona - 25th Dec 23 </p>
                                         </div>
                                     </div>
                                     <div class="post-holder"> <a href="blog-single.html" class="post-link"></a>
@@ -727,7 +819,7 @@
                                                     alt="image description"></a> </div>
                                         <div class="post-desc">
                                             <h6><a href="#">Navigating the Desert's Mysteries</a></h6>
-                                            <p>Cleona - 7th May 24 </p>
+                                            <p>Cleona - 25th Dec 23 </p>
                                         </div>
                                     </div>
                                 </div>
@@ -738,7 +830,7 @@
             </div>
             <div class="footer-bottom text-center">
                 <div class="container">
-                    <p>Copyright 2023 - Excursion Travel & Trip Site Template</p>
+                    <p>Copyright &copy; 2023 - Excursion Travel & Trip Site Template</p>
                 </div>
             </div>
         </footer>
@@ -753,30 +845,32 @@
             <div class="holder"> <input type="search" class="form-control form-control-v1"
                     placeholder="Enter Your Search"> <button type="submit"><i
                         class="fa-solid fa-magnifying-glass"></i></button> </div>
-        </div> <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa-solid fa-arrow-up-long"></i></a>
-        <!-- jQuery Library -->
-        <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
-        <!-- Vendor Scripts -->
-        <script src="vendors/tether/dist/js/tether.min.js"></script>
-        <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-        <script src="vendors/stellar/jquery.stellar.min.js"></script>
-        <script src="vendors/isotope/javascripts/isotope.pkgd.min.js"></script>
-        <script src="vendors/isotope/javascripts/packery-mode.pkgd.js"></script>
-        <script src="vendors/owl-carousel/dist/owl.carousel.min.js"></script>
-        <script src="vendors/waypoint/waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="vendors/fancyBox/source/jquery.fancybox.pack.js"></script>
-        <script src="vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.js"></script>
-        <script src="vendors/image-stretcher-master/image-stretcher.js"></script>
-        <script src="vendors/wow/wow.min.js"></script>
-        <script src="vendors/rateyo/jquery.rateyo.min.js"></script>
-        <script src="vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
-        <script src="vendors/bootstrap-slider-master/src/js/bootstrap-slider.js"></script>
-        <script src="vendors/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-        <script src="js/mega-menu.js"></script>
-        <script src="vendors/retina/retina.min.js"></script>
-        <!-- Custom Script -->
-        <script src="js/jquery.main.js"></script>
+        </div>
+    </div>
+    <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+    <!-- jQuery Library -->
+    <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Vendor Scripts -->
+    <script src="vendors/tether/dist/js/tether.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/stellar/jquery.stellar.min.js"></script>
+    <script src="vendors/isotope/javascripts/isotope.pkgd.min.js"></script>
+    <script src="vendors/isotope/javascripts/packery-mode.pkgd.js"></script>
+    <script src="vendors/owl-carousel/dist/owl.carousel.min.js"></script>
+    <script src="vendors/waypoint/waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="vendors/fancyBox/source/jquery.fancybox.pack.js"></script>
+    <script src="vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="vendors/image-stretcher-master/image-stretcher.js"></script>
+    <script src="vendors/wow/wow.min.js"></script>
+    <script src="vendors/rateyo/jquery.rateyo.min.js"></script>
+    <script src="vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="vendors/bootstrap-slider-master/src/js/bootstrap-slider.js"></script>
+    <script src="vendors/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="js/mega-menu.js"></script>
+    
+    <!-- Custom Script -->
+    <script src="js/jquery.main.js"></script>
 </body>
 
 </html>

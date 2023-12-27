@@ -65,12 +65,12 @@ $(document).ready(function() {
         responsive: {
             767: {
                 items: 2,
-                nav: false,
+                nav: true,
             },
             991: {
-                items: 3,
+                items: 4,
                 nav: true,
-                loop: false,
+                loop: true,
             }
         }
     });
@@ -153,6 +153,9 @@ $(document).ready(function() {
                 items: 3
             },
             1024: {
+                items: 4
+            },
+            1199: {
                 items: 6
             }
         }

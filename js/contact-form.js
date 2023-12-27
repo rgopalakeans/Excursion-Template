@@ -8,19 +8,19 @@
 
             rules: {
 
-                con_fname: {
+                first-name: {
                     required: true
                 },
-                con_lname: {
+                last-name: {
                     required: true
                 },
-                con_phone: {
+                phone: {
                     required: true
                 },
-                con_message: {
+                message: {
                     required: true
                 },
-                con_email: {
+                email: {
                     required: true,
                     email: true
                 }
@@ -28,20 +28,20 @@
 
             messages: {
 
-                con_fname: {
+                first-name: {
                     required: 'First name must be filled out.'
                 },
-                con_lname: {
+                last-name: {
                     required: 'Last name must be filled out.'
                 },
-                con_phone: {
+                phone: {
                     required: 'Phone must be filled out.'
                 },
-                con_message: {
+                message: {
                     required: 'Message must be filled out.'
                 },
 
-                con_email: {
+                email: {
                     required: 'Email must be filled out.',
                     email: 'Your email must be valid.'
                 }
@@ -49,13 +49,13 @@
 
             submitHandler: function() {
 
-                var con_fname = $('#con_fname').val();
-                var con_lname = $('#con_lname').val();
-                var con_phone = $('#con_phone').val();
-                var con_message = $('#con_message').val();
-                var con_email = $('#con_email').val();
+                var first-name = $('#first-name').val();
+                var last-name = $('#last-name').val();
+                var phone = $('#phone').val();
+                var message = $('#message').val();
+                var email = $('#email').val();
 
-                var xurl = 'php/send_email.php?action=sendEmail&con_email=' + con_email + '&con_fname=' + con_fname + '&con_lname=' + con_lname + '&con_phone=' + con_phone + '&con_message=' + con_message;
+                var xurl = 'php/send_email.php?action=sendEmail&email=' + email + '&first-name=' + first-name + '&last-name=' + last-name + '&phone=' + phone + '&message=' + message;
 
                 $('#btn_sent').val('Sending...');
                 $('#error_message').html('');
